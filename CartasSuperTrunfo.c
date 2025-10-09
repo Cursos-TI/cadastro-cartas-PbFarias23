@@ -82,7 +82,7 @@ int main() {
     PIBpercapita2 = (pib2 / populacao2);
 
     // Impressão das cartas 
-    
+    // carta 1
     printf("Cartas\n\n");
     
     printf("Carta 1:\n");
@@ -94,6 +94,7 @@ int main() {
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Pontos Turisticos: %d\n", pontosTuristicos1);
 
+    //Carta2
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Codigo: %s\n", codigo2);
