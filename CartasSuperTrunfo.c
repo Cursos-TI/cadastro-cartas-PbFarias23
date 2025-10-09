@@ -93,6 +93,8 @@ int main() {
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Pontos Turisticos: %d\n", pontosTuristicos1);
+    printf("Densidade Populacional: %f\n", DensidadePopulacional1);
+    printf("PIB per Capita: %f\n", PIBpercapita1);
 
     //Carta2
     printf("\nCarta 2:\n");
