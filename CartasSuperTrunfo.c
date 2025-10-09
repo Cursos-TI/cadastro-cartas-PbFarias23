@@ -68,6 +68,19 @@ int main() {
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &pontosTuristicos2);
 
+    // Calculos
+    float DensidadePopulacional1;
+    float PIBpercapita1;
+
+    DensidadePopulacional1 = (populacao1 / area1);
+    PIBpercapita1 = (pib1 / populacao1);
+
+    float DensidadePopulacional2;
+    float PIBpercapita2;
+
+    DensidadePopulacional2 = (populacao2 / area2);
+    PIBpercapita2 = (pib2 / populacao2);
+
     // Impressão das cartas 
     
     printf("Cartas\n\n");
