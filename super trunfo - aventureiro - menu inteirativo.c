@@ -43,8 +43,24 @@ int main (){
         }
         break;
 
+    case 2:
+        printf("Atributo: Área\n");
+        printf("%s : %.2f km2\n", nome1, area1);
+        printf("%s : %.2f km2\n", nome2, area2);
+
+        if (area1 > area2)
+        {
+            printf("Resultado: %s Venceu!\n", nome1);
+        } else if (area1 < area2)
+        {
+            printf("Resultado: %s Venceu!\n", nome2);
+        } else {
+            printf("Empate\n");
+        }
+        break;
         
-    default:
+        
+        default:
         break;
     }
 }
