@@ -58,6 +58,54 @@ int main (){
             printf("Empate\n");
         }
         break;
+
+    case 3:
+        printf("Atributo: PIB\n");
+        printf("%s: %.2f Bilhoes\n", nome1, pib1);
+        printf("%s: %.2f Bilhoes\n", nome2, pib2);
+
+        if (pib1 > pib2)
+        {
+            printf("Resultado: %s Venceu\n", nome1);
+        } else if (pib1 < pib2) {
+            printf("Resultado: %s Venceu!!\n", nome2);
+        } else {
+            printf("Resultado: Empate\n")
+        }
+        break;
+        
+    case 4:
+        printf("Atributo: Pontos Turisticos\n");
+        printf("%s: %d pontos\n", nome1, pontos1);
+        printf("%s: %d pontos\n", nome2, pontos2);
+        
+        if (pontos1 > pontos2) 
+        {
+            printf("Resultado: %s Venceu!\n");
+        } else if (pontos1 < pontos2)
+        {
+            printf("Resultado: %s Venceu!\n", nome2);
+        } else {
+            printf("Resulado: Empate!\n");
+        }
+        break;
+
+    case 5:
+        printf("Atributo: Densidade Demográfica\n");
+        printf("%s: %.2f hab/km2\n", nome1, densidade1);
+        printf("%s: %.2f hab/km2\n", nome2, densidade2);
+        
+        //Regra Invertida
+        if (densidade1 < densidade2)
+        {
+            printf("Resultado: %s Venceu!\n", nome1);
+        } else if (densidade1 > densidade2)
+        {
+            printf("Resultado: %s Venceu!\n", nome2);
+        } else {
+            printf("Empate\n");
+        }
+        break;
         
         
         default:
