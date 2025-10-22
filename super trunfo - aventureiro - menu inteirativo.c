@@ -4,8 +4,8 @@ int main (){
 
     char nome1[50] = "Rio de Janeiro";
     char nome2[50] = "São Paulo";
-    int populacao1 = 161000000;
-    int populacao2 = 215000000;
+    int populacao1 = 1610000;
+    int populacao2 = 2150000;
     float area1 = 1200;
     float area2 = 248219;
     float pib1 = 10150000;
@@ -33,8 +33,17 @@ int main (){
         printf("Atributo População\n");
         printf("%s : %d habitantes\n", nome1, populacao1);
         printf("%s : %d habitantes\n", nome2, populacao2);
+        
+        if (populacao1 > populacao2){
+            printf("Resultado: %s Venceu\n", nome1);
+        } else if (populacao1 < populacao2) {
+            printf("Resultado: %s Venceu!\n", nome2);
+        } else {
+            printf("Empate\n");
+        }
         break;
-    
+
+        
     default:
         break;
     }
