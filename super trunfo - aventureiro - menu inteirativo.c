@@ -2,6 +2,8 @@
 
 int main (){
 
+    //variáveis
+
     char nome1[50] = "Rio de Janeiro";
     char nome2[50] = "São Paulo";
     int populacao1 = 1610000;
@@ -17,6 +19,7 @@ int main (){
     int opcao;
 
     //menu
+
     printf("$$$ --- Batalha dos Estados --- $$$\n\n");
     
     printf("1 - População\n");
@@ -26,6 +29,8 @@ int main (){
     printf("5 - Densidade Demográfica\n");
     printf("\nEscolha o Atributo ");
     scanf("%d", &opcao);
+
+    //switch
 
     switch (opcao)
     {
@@ -96,6 +101,7 @@ int main (){
         printf("%s: %.2f hab/km2\n", nome2, densidade2);
         
         //Regra Invertida
+        
         if (densidade1 < densidade2)
         {
             printf("Resultado: %s Venceu!\n", nome1);
