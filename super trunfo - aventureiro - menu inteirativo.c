@@ -18,5 +18,12 @@ int main (){
 
     //menu
     printf("$$$ --- Batalha dos Estados --- $$$\n\n");
-
+    
+    printf("1 - População\n");
+    printf("2 - Área\n");
+    printf("3 - PIB\n");
+    printf("4 - Pontos Turísticos");
+    printf("5 - Densidade Demográfica\n");
+    printf("\nEscolha o Atributo ");
+    scanf("%d", &opcao);
 }
