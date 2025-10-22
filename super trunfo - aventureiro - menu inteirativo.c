@@ -22,8 +22,20 @@ int main (){
     printf("1 - População\n");
     printf("2 - Área\n");
     printf("3 - PIB\n");
-    printf("4 - Pontos Turísticos");
+    printf("4 - Pontos Turísticos\n");
     printf("5 - Densidade Demográfica\n");
     printf("\nEscolha o Atributo ");
     scanf("%d", &opcao);
+
+    switch (opcao)
+    {
+    case 1:
+        printf("Atributo População\n");
+        printf("%s : %d habitantes\n", nome1, populacao1);
+        printf("%s : %d habitantes\n", nome2, populacao2);
+        break;
+    
+    default:
+        break;
+    }
 }
