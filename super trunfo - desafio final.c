@@ -16,11 +16,15 @@ int main (){
     int pontos2 = 37;
     float densidade1 = populacao1 / area1;
     float densidade2 = populacao2 / area2;
-    int opcao;
+    int opcao1, opcao2;
 
     //menu
 
-    printf("$$$ --- Batalha dos Estados --- $$$\n\n");
+    printf("$$$ --- Batalha dos Estados // Desafio Final --- $$$\n\n");
+    printf("Carta 1: %s\n", nome1);
+    printf("Carta 2: %s \n\n", nome2);
+
+    //atributo 1
     
     printf("1 - População\n");
     printf("2 - Área\n");
@@ -28,7 +32,7 @@ int main (){
     printf("4 - Pontos Turísticos\n");
     printf("5 - Densidade Demográfica\n");
     printf("\nEscolha o Atributo ");
-    scanf("%d", &opcao);
+    scanf("%d", &opcao1);
 
     //switch
 
